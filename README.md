@@ -220,18 +220,23 @@ MonitoramentoFalhasEnergia/
 * **Data de Início**
 
   * Deve ser ≤ data/hora atual. Caso contrário, gera `ArgumentException` e log WARN.
+
 * **Data de Término**
 
   * Deve ser ≥ data de início. Caso contrário, gera `ArgumentException` e log WARN.
+
 * **Campos Obrigatórios**
 
   * `LocalDispositivo` (no registro de falha), `Mensagem` (no alerta), `Descricao` (na tarefa) não podem ficar vazios. Violar gera `ArgumentException`.
+
 * **Conversão de Datas**
 
-  * Se usar formato incorreto, gera `FormatException`, exibe msg “Data inválida” e grava log WARN.
+  * Se usar formato incorreto, gera `FormatException`, exibe mensagem “Data inválida” e grava log WARN.
+
 * **Geração de Alerta Automático**
 
   * Se a diferença `DataFim – DataInicio` ultrapassar 10 minutos, o sistema cria alerta automaticamente no encerramento da falha.
+
 * **Persistência em Arquivos**
 
   * Cada entidade salva em arquivo CSV em `dados/` (uso de ponto‐e-vírgula como separador).
@@ -243,57 +248,28 @@ MonitoramentoFalhasEnergia/
 ## 📂 Estrutura de Projetos e Dependências
 
 * Cada projeto (`*.csproj`) está referenciado na Solution `MonitoramentoFalhasEnergia.sln`.
+
 * As dependências internas seguem este fluxo de referências:
 
   ```
-  MyApp.Domain ← (modelos e exceções)  
-        ↑  
-  MyApp.Data ← referência MyApp.Domain  
-        ↑  
-  MyApp.Services ← referência MyApp.Data, MyApp.Domain  
-        ↑  
-  MyApp.Security ← referência MyApp.Domain  
-        ↑  
+  MyApp.Domain ← (modelos e exceções)
+        ↑
+  MyApp.Data ← referência MyApp.Domain
+        ↑
+  MyApp.Services ← referência MyApp.Data, MyApp.Domain
+        ↑
+  MyApp.Security ← referência MyApp.Domain
+        ↑
   MyApp.UI ← referência MyApp.Services, MyApp.Data, MyApp.Security, MyApp.Domain
   ```
+
 * Não há dependências externas de pacotes NuGet além das bibliotecas padrão do .NET 6.0.
 
 ---
 
-## 📈 Possíveis Extensões Futuras
+## Grupo
 
-1. **Persistência em Banco de Dados**
-
-   * Implementar classes que usem Entity Framework Core ou Dapper para armazenar em SQL Server, PostgreSQL, etc.
-   * Basta criar, por exemplo, `FalhaEfRepository` que implemente `IFalhaRepository` e apontar a URL de conexão em `appsettings.json`.
-
-2. **Envio de Alerta Real por E-mail ou SMS**
-
-   * Em `AlertaService`, substituir a marcação “Enviado” simulado por integração com SMTP (`System.Net.Mail`) ou Twilio.
-   * Configurar parâmetros em arquivo de configuração seguro.
-
-3. **API REST ou Painel Web**
-
-   * Criar um Web API (ASP.NET Core) que exponha endpoints para registrar/encerrar falhas e exibir relatórios.
-   * Desenvolver uma interface web ou dashboard (React, Angular ou Blazor) para visualização em tempo real.
-
-4. **Integração com Ferramentas de Ticket**
-
-   * Ao criar uma tarefa de manutenção, integrar com Jira, ServiceNow ou outro sistema de chamados via API.
-
-5. **Relatórios Agendados**
-
-   * Configurar um serviço (Windows Service ou cron job) para gerar relatórios automaticamente toda segunda-feira às 9h e enviar por e-mail.
+* Henri de Oliveira Lopes – RM98347
+* Lorenzo Gomes Andréata – RM551117
 
 ---
-
-## 🤝 Contribuição
-
-1. Faça um fork deste repositório.
-2. Crie uma branch (`git checkout -b feature/minha-nova-funcionalidade`).
-3. Implemente suas melhorias e faça commits claros.
-4. Abra um Pull Request detalhando as mudanças.
-
----
-
-Obrigado por utilizar o **Monitoramento de Falhas de Energia**! Qualquer dúvida, abra uma issue ou entre em contato.
