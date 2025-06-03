@@ -1,0 +1,23 @@
+[2025-05-31 13:07:43][INFO] (FalhaService): Falha registrada: ba7db6a8-4ce8-459b-b5e6-cce7cb1a59e0
+[2025-05-31 13:08:38][INFO] (TarefaService): Tarefa criada: c26c1611-bafe-48cd-ba08-fce93e0e6084
+[2025-05-31 13:09:03][INFO] (AlertaService): Alerta criado: 28343041-67a9-4099-a0d6-ca871c1717d7
+[2025-05-31 13:09:03][INFO] (AlertaService): Alerta marcado como enviado: 28343041-67a9-4099-a0d6-ca871c1717d7
+[2025-05-31 13:09:50][WARN] (FalhaService): Falha ao validar dados: Data de início não pode ser no futuro.
+[2025-06-02 17:52:02][INFO] (FalhaService): Falha registrada: e8f3b8cb-de01-44c2-94bc-3924159b8bb2
+[2025-06-02 17:52:30][INFO] (TarefaService): Tarefa criada: bed6810f-3edc-4b66-a096-d5fa4e1f8935
+[2025-06-02 17:53:24][INFO] (FalhaService): Falha encerrada: e8f3b8cb-de01-44c2-94bc-3924159b8bb2
+[2025-06-02 17:54:22][INFO] (AlertaService): Alerta criado: 79357cbf-fcc2-44df-ba05-184efd93fec6
+[2025-06-02 17:54:22][INFO] (AlertaService): Alerta marcado como enviado: 79357cbf-fcc2-44df-ba05-184efd93fec6
+[2025-06-02 20:22:50][INFO] (FalhaService): Falha registrada: 373f2065-75e5-4f00-95d1-7599efc7da82
+[2025-06-02 20:32:57][INFO] (FalhaService): Falha registrada: c12ab70c-4397-4c30-8f61-d6ff5c58bc75
+[2025-06-02 20:33:21][ERROR] (FalhaService): Falha não encontrada: 79357cbf-fcc2-44df-ba05-184efd93fec6
+[2025-06-02 21:17:17][INFO] (FalhaService): Falha registrada: 9b526a02-b80b-4bf7-bb36-44dd156635b8
+[2025-06-02 21:19:02][INFO] (FalhaService): Falha registrada: c3254ad4-40e3-42cc-9245-3fc73cf4547e
+[2025-06-02 21:19:19][INFO] (FalhaService): Falha encerrada: c3254ad4-40e3-42cc-9245-3fc73cf4547e
+[2025-06-02 21:23:26][INFO] (FalhaService): Falha registrada: 269d5bd7-a705-47c6-a884-14e8e36e7b07
+[2025-06-02 21:23:44][INFO] (FalhaService): Falha encerrada: 269d5bd7-a705-47c6-a884-14e8e36e7b07
+[2025-06-02 21:28:22][INFO] (FalhaService): Falha registrada: bec38bb4-6624-4e23-a267-ffb15a31c42a
+[2025-06-02 21:28:54][INFO] (FalhaService): Falha encerrada: bec38bb4-6624-4e23-a267-ffb15a31c42a
+[2025-06-02 21:29:26][INFO] (TarefaService): Tarefa criada: ced6d224-c764-4cba-bd0e-743bc3dae13b
+[2025-06-02 21:30:01][INFO] (AlertaService): Alerta criado: ab1c05e0-124a-4c21-b3a9-3357229a39bb
+[2025-06-02 21:30:01][INFO] (AlertaService): Alerta marcado como enviado: ab1c05e0-124a-4c21-b3a9-3357229a39bb

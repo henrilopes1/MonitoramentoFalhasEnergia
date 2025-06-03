@@ -1,0 +1,3 @@
+c26c1611-bafe-48cd-ba08-fce93e0e6084;Arrumar o programa;Aberto;2025-05-31 13:08
+bed6810f-3edc-4b66-a096-d5fa4e1f8935;Arrumar o meu PC;Aberto;2025-06-02 17:52
+ced6d224-c764-4cba-bd0e-743bc3dae13b;Verificar nobreak e cabos do servidor principal;Aberto;2025-06-02 21:29

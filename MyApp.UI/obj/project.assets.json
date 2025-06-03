@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MyApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MyApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Data.dll": {}
+        }
+      },
+      "MyApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MyApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Domain.dll": {}
+        }
+      },
+      "MyApp.Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MyApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyApp.Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Security.dll": {}
+        }
+      },
+      "MyApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MyApp.Data": "1.0.0",
+          "MyApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Data/MyApp.Data.csproj",
+      "msbuildProject": "../MyApp.Data/MyApp.Data.csproj"
+    },
+    "MyApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Domain/MyApp.Domain.csproj",
+      "msbuildProject": "../MyApp.Domain/MyApp.Domain.csproj"
+    },
+    "MyApp.Security/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Security/MyApp.Security.csproj",
+      "msbuildProject": "../MyApp.Security/MyApp.Security.csproj"
+    },
+    "MyApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Services/MyApp.Services.csproj",
+      "msbuildProject": "../MyApp.Services/MyApp.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MyApp.Data >= 1.0.0",
+      "MyApp.Domain >= 1.0.0",
+      "MyApp.Security >= 1.0.0",
+      "MyApp.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Henri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.UI\\MyApp.UI.csproj",
+      "projectName": "MyApp.UI",
+      "projectPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.UI\\MyApp.UI.csproj",
+      "packagesPath": "C:\\Users\\Henri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Data\\MyApp.Data.csproj": {
+              "projectPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Data\\MyApp.Data.csproj"
+            },
+            "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Domain\\MyApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Domain\\MyApp.Domain.csproj"
+            },
+            "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Security\\MyApp.Security.csproj": {
+              "projectPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Security\\MyApp.Security.csproj"
+            },
+            "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Services\\MyApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Henri\\MonitoramentoFalhasEnergia\\MyApp.Services\\MyApp.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

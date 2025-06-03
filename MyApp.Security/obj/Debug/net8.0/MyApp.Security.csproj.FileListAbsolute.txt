@@ -1,0 +1,15 @@
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\bin\Debug\net8.0\MyApp.Security.deps.json
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\bin\Debug\net8.0\MyApp.Security.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\bin\Debug\net8.0\MyApp.Security.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\bin\Debug\net8.0\MyApp.Domain.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\bin\Debug\net8.0\MyApp.Domain.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.csproj.AssemblyReference.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.AssemblyInfoInputs.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.AssemblyInfo.cs
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.csproj.CoreCompileInputs.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Se.FB01F283.Up2Date
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\refint\MyApp.Security.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\MyApp.Security.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Security\obj\Debug\net8.0\ref\MyApp.Security.dll

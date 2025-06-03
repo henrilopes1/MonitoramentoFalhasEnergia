@@ -1,0 +1,17 @@
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Services.deps.json
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Services.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Services.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Data.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Domain.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Data.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\bin\Debug\net8.0\MyApp.Domain.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.csproj.AssemblyReference.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.AssemblyInfoInputs.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.AssemblyInfo.cs
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Se.48D4330E.Up2Date
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\refint\MyApp.Services.dll
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\MyApp.Services.pdb
+C:\Users\Henri\MonitoramentoFalhasEnergia\MyApp.Services\obj\Debug\net8.0\ref\MyApp.Services.dll

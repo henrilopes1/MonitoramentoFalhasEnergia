@@ -1,0 +1,8 @@
+ba7db6a8-4ce8-459b-b5e6-cce7cb1a59e0;2025-04-29 12:02;;campinas;alguma coisa
+e8f3b8cb-de01-44c2-94bc-3924159b8bb2;2025-05-06 00:00;2025-06-02 00:00;Baltimore;Tudo pegando Fogo
+373f2065-75e5-4f00-95d1-7599efc7da82;2025-05-23 00:00;;SP;Pegando fog
+c12ab70c-4397-4c30-8f61-d6ff5c58bc75;2025-04-29 00:00;;SP;FOGO
+9b526a02-b80b-4bf7-bb36-44dd156635b8;2025-06-01 14:30;;Servidor Principal  ;Queda de energia inesperada
+c3254ad4-40e3-42cc-9245-3fc73cf4547e;2025-06-01 14:30;2025-06-01 15:05;Servidor ;Queda de energia inesperada
+269d5bd7-a705-47c6-a884-14e8e36e7b07;2025-03-04 00:00;2025-03-08 00:00;SP;Pegou Fogo
+bec38bb4-6624-4e23-a267-ffb15a31c42a;2025-05-01 14:00;2025-06-01 15:05;Osasco;Queda de energia inesperada
